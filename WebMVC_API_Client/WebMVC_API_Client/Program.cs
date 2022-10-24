@@ -28,6 +28,7 @@ namespace WebMVC_API_Client
             }
 
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();

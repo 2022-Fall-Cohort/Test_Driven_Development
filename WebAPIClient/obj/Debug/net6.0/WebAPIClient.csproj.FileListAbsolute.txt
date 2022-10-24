@@ -1,8 +1,3 @@
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.AssemblyReference.cache
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.AssemblyInfoInputs.cache
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.AssemblyInfo.cs
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.CoreCompileInputs.cache
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.deps.json
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.runtimeconfig.json
@@ -17,6 +12,11 @@ C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.AssemblyReference.cache
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.AssemblyInfoInputs.cache
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.AssemblyInfo.cs
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.CoreCompileInputs.cache
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.CopyComplete
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\WebAPIClient.dll
 C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\obj\Debug\net6.0\refint\WebAPIClient.dll

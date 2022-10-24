@@ -1,19 +1,15 @@
+﻿using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
+using WebAPIClient.Models;
 
 namespace WebAPIClient.Test
 {
-    public class UnitTest1
+    public class TestDELETE
     {
         private static readonly HttpClient client = new HttpClient();
 
         [Fact]
-        public void Test1()
-        {
-            Assert.True(false);
-        }
-
-        [Fact]
-        public async void API_Get()
+        public async void API_Delete()
         {
             client.DefaultRequestHeaders.Accept.Clear();
 
@@ -22,12 +18,11 @@ namespace WebAPIClient.Test
 
             client.DefaultRequestHeaders.Add("User-Agent", "Jim's API");
 
-            var requestUri = "https://localhost:7256/api/VideoGames/X";
+            var requestUri = "https://localhost:7256/api/VideoGames/";
 
-            var stringTask = client.GetStringAsync(requestUri);
-            var msg = await stringTask;
+            var resultDELETE = await client.DeleteAsync(requestUri + "31");
 
-            Assert.NotNull(msg);
+            Assert.Equal((double)204, (double)resultDELETE.StatusCode);
         }
 
     }

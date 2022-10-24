@@ -1,6 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Net.Http.Formatting;
-using WebAPIClient.Repository;
+using WebAPIClient.Models;
 using Newtonsoft.Json.Linq;
 
 internal class Program
@@ -30,21 +30,21 @@ internal class Program
         Console.WriteLine(JToken.Parse(msg).ToString());
         Console.WriteLine("=========================================================================================");
 
-        var repositoryPOST = new Repository { Title = "Even Once again, ANOTHER Video Game", StudioId = 88, MainCharacterId = 55 };
-        var resultPOST = await client.PostAsync<Repository>(requestUri, repositoryPOST, new JsonMediaTypeFormatter());
+        var videoGamePOST = new VideoGame { Id = null, Title = "Four Score and Seven Years Ago ...", StudioId = 55, MainCharacterId = 55 };
+        var resultPOST = await client.PostAsync<VideoGame>(requestUri, videoGamePOST, new JsonMediaTypeFormatter());
 
         Console.WriteLine("HTTP POST");
         Console.WriteLine(resultPOST);
         Console.WriteLine("=========================================================================================");
 
-        var repositoryPUT = new Repository { Id = 11, Title = "WE THE PEOPLE ...", StudioId = 55, MainCharacterId = 55 };
-        var resultPUT = await client.PutAsync<Repository>(requestUri + "11", repositoryPUT, new JsonMediaTypeFormatter());
-        
+        var repositoryPUT = new VideoGame { Id = 11, Title = "WE THE PEOPLE of the United States of America ...", StudioId = 55, MainCharacterId = 55 };
+        var resultPUT = await client.PutAsync<VideoGame>(requestUri + "11", repositoryPUT, new JsonMediaTypeFormatter());
+
         Console.WriteLine("HTTP PUT");
         Console.WriteLine(resultPUT);
         Console.WriteLine("=========================================================================================");
 
-        var resultDELETE = await client.DeleteAsync(requestUri + "20");
+        var resultDELETE = await client.DeleteAsync(requestUri + "32");
 
         Console.WriteLine("HTTP DELETE");
         Console.WriteLine(resultDELETE);

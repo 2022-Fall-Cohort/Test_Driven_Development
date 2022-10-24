@@ -2,13 +2,13 @@ HTTP GET
 [
   {
     "id": 9,
-    "title": "Onc more time, ANOTHER Video Game",
+    "title": "One more time, ANOTHER Video Game",
     "studioId": 55,
     "mainCharacterId": 55
   },
   {
     "id": 11,
-    "title": "Four score and seven years ago ...",
+    "title": "WE THE PEOPLE of the United States of America ...",
     "studioId": 55,
     "mainCharacterId": 55
   },
@@ -25,37 +25,103 @@ HTTP GET
     "mainCharacterId": 55
   },
   {
-    "id": 19,
+    "id": 21,
     "title": "Even Once again, ANOTHER Video Game",
     "studioId": 88,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 23,
+    "title": "Another Glorious Video Game",
+    "studioId": 222,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 24,
+    "title": "Who Knows",
+    "studioId": 11,
+    "mainCharacterId": 22
+  },
+  {
+    "id": 25,
+    "title": "Even Once again, ANOTHER Video Game",
+    "studioId": 88,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 27,
+    "title": "WE THE PEOPLE of the United States of America ...",
+    "studioId": 55,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 28,
+    "title": "WE THE PEOPLE of the United States of America ...",
+    "studioId": 55,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 29,
+    "title": "WE THE PEOPLE of the United States of America ...",
+    "studioId": 55,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 30,
+    "title": "WE THE PEOPLE of the United States of America ...",
+    "studioId": 55,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 32,
+    "title": "Once MORE, ANOTHER Video Game",
+    "studioId": 88,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 37,
+    "title": "Four Score and Seven Years Ago ...",
+    "studioId": 55,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 38,
+    "title": "Four Score and Seven Years Ago ...",
+    "studioId": 55,
+    "mainCharacterId": 55
+  },
+  {
+    "id": 39,
+    "title": "Four Score and Seven Years Ago ...",
+    "studioId": 55,
     "mainCharacterId": 55
   }
 ]
 =========================================================================================
 HTTP POST
 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:{
-  Date: Sun, 23 Oct 2022 23:06:47 GMT
+  Date: Mon, 24 Oct 2022 20:34:47 GMT
   Server: Kestrel
-  Location: https://localhost:7256/api/VideoGames/20
-  Content-Length: 90
+  Location: https://localhost:7256/api/VideoGames/40
+  Content-Length: 89
   Content-Type: application/json; charset=utf-8
 }
 =========================================================================================
 HTTP PUT
 StatusCode: 204, ReasonPhrase: 'No Content', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Sun, 23 Oct 2022 23:06:47 GMT
+  Date: Mon, 24 Oct 2022 20:34:47 GMT
   Server: Kestrel
 }
 =========================================================================================
 HTTP DELETE
 StatusCode: 204, ReasonPhrase: 'No Content', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Sun, 23 Oct 2022 23:06:47 GMT
+  Date: Mon, 24 Oct 2022 20:34:47 GMT
   Server: Kestrel
 }
 =========================================================================================
 
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe (process 26944) exited with code 0.
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe (process 33040) exited with code 0.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
