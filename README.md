@@ -7,7 +7,8 @@ The "test" is part of "spec"ing (Establishing the specification)
 It is an "Approach"
 It is a "Thought Process" of thinking about testing from a different perspective
 
-In a "normal" development scenario you write your code and then you write test cases
+In a "normal" development scenario you write your code and then you write test cases.
+
 In "TDD", you write your test cases before you write a single line of app code
 
 ## Libraries to use in C# Unit Tests
