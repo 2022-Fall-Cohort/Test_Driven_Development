@@ -1,11 +1,7 @@
 using System.Net.Http.Headers;
-using System.Text.Json;
-using WebAPIClient;
-using System.Collections.Generic;
-using System.Security.Claims;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System.Net.Http.Formatting;
+using WebAPIClient.Models;
+using Newtonsoft.Json.Linq;
 
 internal class Program
 {
@@ -30,25 +26,27 @@ internal class Program
         var stringTask = client.GetStringAsync(requestUri);
         var msg = await stringTask;
 
-        Console.WriteLine(msg);
+        Console.WriteLine("HTTP GET");
+        Console.WriteLine(JToken.Parse(msg).ToString());
         Console.WriteLine("=========================================================================================");
 
-        //var repositoryPOST = new Repository{ Title = "Once again, ANOTHER Video Game", StudioId = 4, MainCharacterId = 4 };
+        var videoGamePOST = new VideoGame { Id = null, Title = "Four Score and Seven Years Ago ...", StudioId = 55, MainCharacterId = 55 };
+        var resultPOST = await client.PostAsync<VideoGame>(requestUri, videoGamePOST, new JsonMediaTypeFormatter());
 
-        //var resultPOST = await client.PostAsync<Repository>(requestUri, repositoryPOST, new JsonMediaTypeFormatter());
+        Console.WriteLine("HTTP POST");
+        Console.WriteLine(resultPOST);
+        Console.WriteLine("=========================================================================================");
 
-        //Console.WriteLine(resultPOST);
-        //Console.WriteLine("=========================================================================================");
+        var repositoryPUT = new VideoGame { Id = 11, Title = "WE THE PEOPLE of the United States of America ...", StudioId = 55, MainCharacterId = 55 };
+        var resultPUT = await client.PutAsync<VideoGame>(requestUri + "11", repositoryPUT, new JsonMediaTypeFormatter());
 
-        //var repositoryPUT = new Repository { Id = 1, Title = "These are the times that try men's souls", StudioId = 55, MainCharacterId = 55 };
+        Console.WriteLine("HTTP PUT");
+        Console.WriteLine(resultPUT);
+        Console.WriteLine("=========================================================================================");
 
-        //var resultPUT = await client.PutAsync<Repository>(requestUri + '1', repositoryPUT, new JsonMediaTypeFormatter());
+        var resultDELETE = await client.DeleteAsync(requestUri + "32");
 
-        //Console.WriteLine(resultPUT);
-        //Console.WriteLine("=========================================================================================");
-
-        var resultDELETE = await client.DeleteAsync(requestUri + '7');
-
+        Console.WriteLine("HTTP DELETE");
         Console.WriteLine(resultDELETE);
         Console.WriteLine("=========================================================================================");
 

@@ -11,16 +11,7 @@ namespace WebAPIClient.Test
         [Fact]
         public async void API_Delete()
         {
-            client.DefaultRequestHeaders.Accept.Clear();
-
-            client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-
-            client.DefaultRequestHeaders.Add("User-Agent", "Jim's API");
-
-            var requestUri = "https://localhost:7256/api/VideoGames/";
-
-            var resultDELETE = await client.DeleteAsync(requestUri + "31");
+            var resultDELETE = await Program.ClientDELETE();
 
             Assert.Equal((double)204, (double)resultDELETE.StatusCode);
         }
