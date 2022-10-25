@@ -8,7 +8,7 @@ Steps to create this project:
 1 - Create: ASP.NET Core Web App (Model-View-Controller)
 
 2 - Add your Model Class from your API project.
-    Your model class must include a contructor with no arguments and a contructor with all
+    Your model class must include a constructor with no arguments and a constructor with all
     properties as arguments.
 
 3 - Add a new controller:
