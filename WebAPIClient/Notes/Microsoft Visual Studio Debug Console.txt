@@ -1,9 +1,8 @@
-https://localhost:7256/api/VideoGames/
 [
   {
     "id": 9,
     "title": "One more time, ANOTHER Video Game",
-    "studioId": 55555,
+    "studioId": 55,
     "mainCharacterId": 55555
   },
   {
@@ -17,12 +16,6 @@ https://localhost:7256/api/VideoGames/
     "title": "In order to form a more perfect union ...",
     "studioId": 55,
     "mainCharacterId": 5555
-  },
-  {
-    "id": 15,
-    "title": "A Super Great Video Game",
-    "studioId": 666,
-    "mainCharacterId": 55
   },
   {
     "id": 23,
@@ -49,13 +42,13 @@ https://localhost:7256/api/VideoGames/
     "mainCharacterId": 55
   },
   {
-    "id": 45,
+    "id": 47,
     "title": "Four Score and Seven Years Ago ...",
     "studioId": 55,
     "mainCharacterId": 55
   },
   {
-    "id": 47,
+    "id": 48,
     "title": "Four Score and Seven Years Ago ...",
     "studioId": 55,
     "mainCharacterId": 55
@@ -63,23 +56,23 @@ https://localhost:7256/api/VideoGames/
 ]
 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Tue, 25 Oct 2022 20:30:06 GMT
+  Date: Tue, 25 Oct 2022 20:59:18 GMT
   Server: Kestrel
-  Location: https://localhost:7256/api/VideoGames/48
+  Location: https://localhost:7256/api/VideoGames/49
   Content-Length: 89
   Content-Type: application/json; charset=utf-8
 }
 StatusCode: 204, ReasonPhrase: 'No Content', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Tue, 25 Oct 2022 20:30:06 GMT
+  Date: Tue, 25 Oct 2022 20:59:18 GMT
   Server: Kestrel
 }
 StatusCode: 204, ReasonPhrase: 'No Content', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Tue, 25 Oct 2022 20:30:06 GMT
+  Date: Tue, 25 Oct 2022 20:59:18 GMT
   Server: Kestrel
 }
 
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe (process 36380) exited with code 0.
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe (process 38884) exited with code 0.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
