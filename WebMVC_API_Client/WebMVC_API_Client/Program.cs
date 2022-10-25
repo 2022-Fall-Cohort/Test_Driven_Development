@@ -5,7 +5,7 @@ namespace WebMVC_API_Client
 {
     public class Program
     {
-        public static ServiceDescriptor? videoGame { get; private set; }
+        public static ServiceDescriptor? VideoGame { get; private set; }
 
         public static void Main(string[] args)
         {

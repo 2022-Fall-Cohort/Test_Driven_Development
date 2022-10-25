@@ -19,17 +19,5 @@
         {
             return;
         }
-
-        internal class ToListAsync : Task<string?>
-        {
-            public ToListAsync(Func<string?> function) : base(function)
-            {
-            }
-        }
-
-        public static explicit operator VideoGame(List<VideoGame> v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
