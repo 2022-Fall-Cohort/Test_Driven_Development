@@ -6,8 +6,6 @@ namespace WebAPIClient.Test
 {
     public class TestDELETE
     {
-        private static readonly HttpClient client = new HttpClient();
-
         [Fact]
         public async void API_Delete()
         {

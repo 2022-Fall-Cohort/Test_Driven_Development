@@ -87,7 +87,7 @@ namespace WebAPIClient
             Header client = new Header();
             var requestUri = client.requestUri;
 
-            var resultDELETE = await client.DeleteAsync(requestUri + "47");
+            var resultDELETE = await client.DeleteAsync(requestUri + "30");
 
             return (HttpResponseMessage)resultDELETE;
 

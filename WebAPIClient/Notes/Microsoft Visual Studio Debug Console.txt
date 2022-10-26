@@ -42,13 +42,13 @@
     "mainCharacterId": 55
   },
   {
-    "id": 47,
+    "id": 48,
     "title": "Four Score and Seven Years Ago ...",
     "studioId": 55,
     "mainCharacterId": 55
   },
   {
-    "id": 48,
+    "id": 49,
     "title": "Four Score and Seven Years Ago ...",
     "studioId": 55,
     "mainCharacterId": 55
@@ -56,23 +56,23 @@
 ]
 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Tue, 25 Oct 2022 20:59:18 GMT
+  Date: Tue, 25 Oct 2022 21:29:11 GMT
   Server: Kestrel
-  Location: https://localhost:7256/api/VideoGames/49
+  Location: https://localhost:7256/api/VideoGames/50
   Content-Length: 89
   Content-Type: application/json; charset=utf-8
 }
 StatusCode: 204, ReasonPhrase: 'No Content', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Tue, 25 Oct 2022 20:59:18 GMT
+  Date: Tue, 25 Oct 2022 21:29:11 GMT
   Server: Kestrel
 }
 StatusCode: 204, ReasonPhrase: 'No Content', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
 {
-  Date: Tue, 25 Oct 2022 20:59:18 GMT
+  Date: Tue, 25 Oct 2022 21:29:11 GMT
   Server: Kestrel
 }
 
-C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe (process 38884) exited with code 0.
+C:\Users\jimk0\source\repos\Test_Driven_Development\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe (process 38468) exited with code 0.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
