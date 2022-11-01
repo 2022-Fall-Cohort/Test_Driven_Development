@@ -9,7 +9,7 @@ namespace WebMVC_API_Client.Controllers
 {
     public class VideoGameController : Controller
     {
-        private IVideoGameService? _service;
+        private IVideoGameService _service;
 
         private static readonly HttpClient client = new HttpClient();
 
@@ -27,7 +27,6 @@ namespace WebMVC_API_Client.Controllers
             client.DefaultRequestHeaders.Add("User-Agent", "Jim's API");
         }
 
-        // Example: https://localhost:7256/api/VideoGames
         public async Task<IActionResult> Index()
         {
             var response = await _service.FindAll();

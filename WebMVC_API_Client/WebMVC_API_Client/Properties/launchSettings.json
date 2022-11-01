@@ -1,4 +1,4 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -10,9 +10,8 @@
   "profiles": {
     "WebMVC_API_Client": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7135",
+      "applicationUrl": "http://localhost:56609",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

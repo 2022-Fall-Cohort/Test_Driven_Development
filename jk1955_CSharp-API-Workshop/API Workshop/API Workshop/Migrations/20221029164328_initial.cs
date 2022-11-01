@@ -4,7 +4,7 @@
 
 namespace API_Workshop.Migrations
 {
-    public partial class firstmigration : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

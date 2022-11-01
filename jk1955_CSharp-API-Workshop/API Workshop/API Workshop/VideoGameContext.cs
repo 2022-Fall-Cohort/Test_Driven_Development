@@ -12,7 +12,7 @@ namespace API_Workshop
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Server=(localdb)\\mssqllocaldb;Database=VGDB_example;Trusted_Connection=True;";
+            string connectionString = "Server=localhost,1433;Database=VGDB_example;user=sa;pwd=jk$19550829";
             optionsBuilder.UseSqlServer(connectionString).UseLazyLoadingProxies();
             base.OnConfiguring(optionsBuilder);
         }

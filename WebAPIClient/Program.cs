@@ -75,8 +75,8 @@ namespace WebAPIClient
             Header client = new Header();
             var requestUri = client.requestUri;
 
-            var videoGamePUT = new VideoGame { Id = 11, Title = "WE THE PEOPLE of the United States of America ...", StudioId = 55, MainCharacterId = 55 };
-            var resultPUT = await client.PutAsync<VideoGame>(requestUri + "11", videoGamePUT, new JsonMediaTypeFormatter());
+            var videoGamePUT = new VideoGame { Id = 1, Title = "When in the Course of Human Events ...", StudioId = 55, MainCharacterId = 55 };
+            var resultPUT = await client.PutAsync<VideoGame>(requestUri + "1", videoGamePUT, new JsonMediaTypeFormatter());
 
             return (HttpResponseMessage)resultPUT;
 
@@ -87,7 +87,7 @@ namespace WebAPIClient
             Header client = new Header();
             var requestUri = client.requestUri;
 
-            var resultDELETE = await client.DeleteAsync(requestUri + "30");
+            var resultDELETE = await client.DeleteAsync(requestUri + "1004");
 
             return (HttpResponseMessage)resultDELETE;
 

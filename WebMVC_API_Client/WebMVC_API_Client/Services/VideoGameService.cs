@@ -16,6 +16,7 @@ namespace WebMVC_API_Client.Services
 
         public async Task<IEnumerable<VideoGame>> FindAll()
         {
+
             var responseGet = await _client.GetAsync(BasePath);
 
             var response = await responseGet.ReadContentAsync<List<VideoGame>>();

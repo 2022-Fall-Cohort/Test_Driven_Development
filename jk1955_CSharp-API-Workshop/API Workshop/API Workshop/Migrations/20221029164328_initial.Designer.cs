@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_Workshop.Migrations
 {
     [DbContext(typeof(VideoGameContext))]
-    [Migration("20221005222714_firstmigration")]
-    partial class firstmigration
+    [Migration("20221029164328_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
